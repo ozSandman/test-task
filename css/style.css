@@ -1,0 +1,112 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.cover {
+    width: 100%;
+    max-width: 1024px;
+    margin: 50px auto;
+}
+
+.demo-title {
+    font-size: 1.6rem;
+    padding: 10px 0;
+    border-bottom: 2px solid #000;
+}
+
+.table-box {
+    margin: 35px 0;
+    font-size: 0.8rem;
+}
+
+table thead {
+    background-color: #cccccc;
+    font-weight: 700;
+}
+
+.table>thead>tr>th {
+    border: 1px solid #000;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border: 1px solid #000;
+}
+
+.table>tbody>tr>td {
+    padding-bottom: 25px;
+}
+
+.table>caption+thead>tr:first-child>td,
+.table>caption+thead>tr:first-child>th,
+.table>colgroup+thead>tr:first-child>td,
+.table>colgroup+thead>tr:first-child>th,
+.table>thead:first-child>tr:first-child>td,
+.table>thead:first-child>tr:first-child>th {
+    border-top: 1px solid #000;
+    line-height: 2.428571;
+}
+
+.table-hover>tbody>tr:hover {
+    cursor: pointer;
+}
+
+table thead th {
+    width: 23%;
+}
+
+table thead th:first-child {
+    width: 8%;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    padding: 15px 15px 0;
+}
+
+.modal-header h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.modal-header img {
+    width: 100%;
+    max-width: 191px;
+}
+
+.modal-body {
+    padding: 0 15px 30px;
+}
+
+.modal-body p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.modal-body ul {
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    font-size: 0.7rem;
+}
+
+.modal-body ul li {
+    list-style: none;
+    float: left;
+    line-height: 1rem;
+    padding-right: 3px;
+}
