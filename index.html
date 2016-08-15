@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div class="cover">
+    <h1 class="demo-title">Demo Application Title</h1>
+    <div class="table-box">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>Авторы</th>
+                <th>Дата выпуска</th>
+                <th>Серийный номер</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 id="modal-title"></h4>
+                <img id="modal-img" src="" alt="book cover"/>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <ul>
+                    <li>Авторы: <span id="modal-author"></span> |</li>
+                    <li>Год выпуска: <span id="modal-date"></span> |</li>
+                    <li>Номер: <span id="modal-number"></span></li>
+                </ul>
+                <p id="description"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
